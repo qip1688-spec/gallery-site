@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.section {
+  padding: 20px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #fff;
+}
